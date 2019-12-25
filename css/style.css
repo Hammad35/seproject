@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/votinghand.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%; 
+}
+
+#navbar{
+    background-color:black;
+    color:white;
+}
+
+#navbar ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    overflow:hidden;
+    padding:10px;
+}
+
+#navbar li{
+    display:inline;
+    
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    float:right;
+    text-decoration-line: underline;
+    padding-right: 35px;
+    text-align: right;
+}
+.heading{
+    position: absolute;
+    top: 8px;
+    left:50px;
+}
+
+
+.content{
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size:60px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: serif;
+    color: white;
+}
+
+.bt{
+    border: 5px solid black;
+	padding: 10px 30px;
+	color:white;
+    text-decoration: none;
+    position: absolute;
+	top: 55%;
+	left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.bt1{
+    border: 5px solid black;
+	padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+	top: 65%;
+	left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.bt:hover{
+	background-color: grey;
+	color: red;
+}
+
+.bt1:hover{
+	background-color: grey;
+	color: red;
+}
+
+@media(max-width:600px){
+    #main{
+    width:100%;
+    }
+}

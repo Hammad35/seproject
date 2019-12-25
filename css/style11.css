@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/one.jpg);
+    height:125vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%; 
+}
+
+#navbar{
+    background-color:black;
+    color:white;
+}
+
+#navbar ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    overflow:hidden;
+    padding:10px;
+}
+
+#navbar li{
+    display:inline;
+    
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    float:right;
+    text-decoration-line: underline;
+    padding-right: 35px;
+    text-align: right;
+    
+}
+.heading{
+    position: absolute;
+    top: 8px;
+    left:50px;
+}
+
+.box{
+    position:relative;
+    width:70%;
+    height:80%;
+    background-color: white;
+    border:2px solid black;
+    /*box-sizing: border-box;*/
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 30px;
+    background-color:#CD853F;
+}
+
+.box h1{
+    position: absolute;
+    top: 20px;
+    left:29%;
+}
+.container2 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    overflow:hidden;
+    padding:10px;
+}
+
+.container2 li{
+    display:inline;
+    
+}
+
+.container2{
+    top: 5%;
+    left: 7%;
+    position: absolute;
+    margin-top: 5%;
+    color: black;
+    
+}
+
+.container2 a{
+    word-spacing: 5px;
+    /*text-align: center;*/
+    padding: 10px;
+    color:brown;
+    display: inline-block;
+    border-right: solid;
+    border-right-color: black;
+
+}
+
+.box hr{ 
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 8px, rgb(59, 48, 48);
+}
+
+
+.new{
+    font-size: 10px;
+    top: 45%;
+    left:27%;
+    position: absolute;
+
+    
+    
+    
+}
+.my-form{
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+    width:47%;
+    bottom: 300px;
+    left: 50px;
+    position: absolute;
+    transform: translate(-75%,176.8%);
+    margin-top: 20%;
+    padding-left: 70px;
+
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+
+}
+
+.my-form label{
+    
+    font-size: 13px;
+    font-weight: 50;
+    color: black;
+    
+    
+
+
+}
+.my-form input{
+    padding: 5px;
+    
+
+}
+
+.my-form input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    position: absolute;
+
+}
+
+.my-form .button:hover{
+    background-color: grey;
+	color: red;
+
+}
+
+.new1 h1{
+    font-size: 20px;
+    top: 45%;
+    right:20%;
+    transform: translate(220%,-100%);
+    
+    
+    
+}
+.my-form1{
+    
+    padding-top: 5px;
+    padding-bottom: 90px;
+    
+    width:47%;
+    bottom: 300px;
+    left: 50px;
+    position: absolute;
+    transform: translate(155%,175%);
+    margin-top: 20%;
+    padding-left: 60px;
+    padding-right: 50px;
+
+}
+
+.my-form1 .form-group1{
+    padding-bottom: 15px;
+
+}
+
+.my-form1 label{
+    
+    font-size: 13px;
+    color: black;
+    
+    
+
+
+}
+.my-form1 input{
+    padding: 5px;
+    padding-top: 5px;
+    
+
+}
+
+.my-form1 input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 80%;
+    position: absolute;
+
+}
+
+.my-form1 .button1:hover{
+    background-color: grey;
+	color: red;
+
+}

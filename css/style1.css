@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/voting.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%; 
+}
+
+#navbar{
+    background-color:black;
+    color:white;
+}
+
+#navbar ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    overflow:hidden;
+    padding:10px;
+}
+
+#navbar li{
+    display:inline;
+    
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    float:right;
+    text-decoration-line: underline;
+    padding-right: 35px;
+    text-align: right;
+}
+
+.heading{
+    position: absolute;
+    top: 8px;
+    left:50px;
+}
+
+.content{
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size:40px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: serif;
+    color: white;
+}
+
+.my-form{
+    padding:100px;
+    border: 5px solid white;
+    width:20%;
+    top: 10px;
+    left: 50px;
+    position: absolute;
+    transform: translate(80%,50%);
+    
+
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+
+}
+
+.my-form label{
+    display:block;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.my-form input{
+    padding: 10px;
+    width: 90%;
+
+}
+
+.my-form input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 20%;
+    position: absolute;
+
+}
+
+.my-form .button:hover{
+    background-color: grey;
+	color: red;
+
+}
+
+.message{
+    bottom:60px;
+    left:50px;
+    position: absolute;
+    transform: translate(230%,40%);
+    color:#00BFFF;
+    font-weight: 500;
+    font-size:13px;
+}
+
+@media(max-width:600px){
+    #main{
+    width:100%;
+    }
+}
